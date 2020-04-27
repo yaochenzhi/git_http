@@ -14,4 +14,5 @@ i	"info/refs" contains HEAD of all branches
 **inspect the update changes:
 	grep -i modify *change.txt
 
-
+**hooks:
+	https://githooks.com
