@@ -1,0 +1,226 @@
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN packed-refs
+./ ACCESS packed-refs
+./ CLOSE_NOWRITE,CLOSE packed-refs
+./ OPEN,ISDIR refs
+./refs/ OPEN,ISDIR 
+./ CLOSE_NOWRITE,CLOSE,ISDIR refs
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./refs/ OPEN,ISDIR heads
+./refs/heads/ OPEN,ISDIR 
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR heads
+./refs/heads/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/ OPEN,ISDIR pack
+./objects/pack/ OPEN,ISDIR 
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR pack
+./objects/pack/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./refs/ OPEN,ISDIR tags
+./refs/tags/ OPEN,ISDIR 
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR tags
+./refs/tags/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./objects/ OPEN,ISDIR pack
+./objects/pack/ OPEN,ISDIR 
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR pack
+./objects/pack/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/ CREATE,ISDIR e2
+./objects/ OPEN,ISDIR e2
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR e2
+./objects/e2/ CLOSE_WRITE,CLOSE tmp_obj_GEpoBh
+./objects/e2/ CREATE 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ DELETE tmp_obj_GEpoBh
+./objects/76/ OPEN 5b32c65d38f04c4f287abda055818ec0f26912
+./objects/76/ CLOSE_NOWRITE,CLOSE 5b32c65d38f04c4f287abda055818ec0f26912
+./objects/ CREATE,ISDIR 75
+./objects/ OPEN,ISDIR 75
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR 75
+./objects/75/ MODIFY tmp_obj_qYLSyh
+./objects/75/ CLOSE_WRITE,CLOSE tmp_obj_qYLSyh
+./objects/75/ CREATE 46c948af215ac3ad77a4fb5ff955e8cf5853a7
+./objects/75/ DELETE tmp_obj_qYLSyh
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN packed-refs
+./ ACCESS packed-refs
+./ CLOSE_NOWRITE,CLOSE packed-refs
+./ OPEN,ISDIR refs
+./refs/ OPEN,ISDIR 
+./ CLOSE_NOWRITE,CLOSE,ISDIR refs
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/ OPEN,ISDIR pack
+./objects/pack/ OPEN,ISDIR 
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR pack
+./objects/pack/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./refs/ OPEN,ISDIR heads
+./refs/heads/ OPEN,ISDIR 
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR heads
+./refs/heads/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/1a/ OPEN 36ac74342c0ca1ee97e12c4ea0bb57eeac5f97
+./objects/1a/ CLOSE_NOWRITE,CLOSE 36ac74342c0ca1ee97e12c4ea0bb57eeac5f97
+./refs/ OPEN,ISDIR tags
+./refs/tags/ OPEN,ISDIR 
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR tags
+./refs/tags/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./objects/87/ OPEN 22f6de2c681dfdaf364acdc61794c63b695992
+./objects/87/ CLOSE_NOWRITE,CLOSE 22f6de2c681dfdaf364acdc61794c63b695992
+./objects/31/ OPEN a86dac657e8dfdd4d43f8fa9ec8a494f8a913b
+./objects/31/ CLOSE_NOWRITE,CLOSE a86dac657e8dfdd4d43f8fa9ec8a494f8a913b
+./objects/76/ OPEN 5b32c65d38f04c4f287abda055818ec0f26912
+./objects/76/ CLOSE_NOWRITE,CLOSE 5b32c65d38f04c4f287abda055818ec0f26912
+./objects/75/ OPEN 46c948af215ac3ad77a4fb5ff955e8cf5853a7
+./objects/75/ CLOSE_NOWRITE,CLOSE 46c948af215ac3ad77a4fb5ff955e8cf5853a7
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/heads/ CREATE master.lock
+./refs/heads/ OPEN master.lock
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./refs/heads/ MODIFY master.lock
+./refs/heads/ CLOSE_WRITE,CLOSE master.lock
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/heads/ MOVED_FROM master.lock
+./refs/heads/ MOVED_TO master
+./hooks/ OPEN post-update
+./hooks/ ACCESS post-update
+./hooks/ CLOSE_NOWRITE,CLOSE post-update
+./hooks/ OPEN post-update
+./hooks/ ACCESS post-update
+./hooks/ CLOSE_NOWRITE,CLOSE post-update
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./info/ CREATE refs+
+./info/ OPEN refs+
+./ OPEN packed-refs
+./ ACCESS packed-refs
+./ CLOSE_NOWRITE,CLOSE packed-refs
+./ OPEN,ISDIR refs
+./refs/ OPEN,ISDIR 
+./ CLOSE_NOWRITE,CLOSE,ISDIR refs
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./refs/ OPEN,ISDIR heads
+./refs/heads/ OPEN,ISDIR 
+./refs/heads/ OPEN master
+./refs/heads/ ACCESS master
+./refs/heads/ CLOSE_NOWRITE,CLOSE master
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR heads
+./refs/heads/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/ OPEN,ISDIR pack
+./objects/pack/ OPEN,ISDIR 
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR pack
+./objects/pack/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ OPEN 89e8732251c550f768514c7701c4a64d05d1fa
+./objects/e2/ CLOSE_NOWRITE,CLOSE 89e8732251c550f768514c7701c4a64d05d1fa
+./refs/ OPEN,ISDIR tags
+./refs/tags/ OPEN,ISDIR 
+./refs/ CLOSE_NOWRITE,CLOSE,ISDIR tags
+./refs/tags/ CLOSE_NOWRITE,CLOSE,ISDIR 
+./info/ MODIFY refs+
+./info/ CLOSE_WRITE,CLOSE refs+
+./info/ MOVED_FROM refs+
+./info/ MOVED_TO refs
+./objects/info/ OPEN packs
+./objects/info/ ACCESS packs
+./objects/info/ CLOSE_NOWRITE,CLOSE packs
+./objects/info/ CREATE packs+
+./objects/info/ OPEN packs+
+./objects/info/ MODIFY packs+
+./objects/info/ CLOSE_WRITE,CLOSE packs+
+./objects/info/ MOVED_FROM packs+
+./objects/info/ MOVED_TO packs
+./ OPEN HEAD
+./ ACCESS HEAD
+./ CLOSE_NOWRITE,CLOSE HEAD
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./ OPEN config
+./ ACCESS config
+./ CLOSE_NOWRITE,CLOSE config
+./objects/ OPEN,ISDIR pack
+./objects/pack/ OPEN,ISDIR 
+./objects/ CLOSE_NOWRITE,CLOSE,ISDIR pack
+./objects/pack/ CLOSE_NOWRITE,CLOSE,ISDIR 
+
