@@ -5,7 +5,7 @@ Set simple http server for the bare repo.
 
 Furthermore:
 	"info/refs" and "objects/info/packs" are updated after the "update-server-info" cmd
-i	"info/refs" contains HEAD of all branches
+	"info/refs" contains HEAD of all branches
 
 	auto update:
 		after push: 	cp hooks/post-update.sample hooks/post-update
